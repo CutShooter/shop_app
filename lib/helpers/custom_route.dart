@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shop_app/Screens/auth-screen.dart';
 
 class CustomRoute<T> extends MaterialPageRoute<T> {
   CustomRoute({WidgetBuilder builder, RouteSettings settings})
@@ -7,7 +8,7 @@ class CustomRoute<T> extends MaterialPageRoute<T> {
   @override
   Widget buildTransitions(BuildContext context, Animation<double> animation,
       Animation<double> secondaryAnimation, Widget child) {
-    if (settings.isInitialRoute) {
+    if (settings.name == AuthScreen.routeName) {
       return child;
     }
     return FadeTransition(
@@ -25,7 +26,7 @@ class CustomPageTransition extends PageTransitionsBuilder {
       Animation<double> animation,
       Animation<double> secondaryAnimation,
       Widget child) {
-    if (route.settings.isInitialRoute) {
+    if (route.isFirst) {
       return child;
     }
     return FadeTransition(

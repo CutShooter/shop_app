@@ -1,16 +1,18 @@
-# shop_app
+# Shop App
 
-A new Flutter application.
+This app is a simple shop app where you can order items, purchase items and add items.
+
+<p float="left">
+    <figure>
+    <img src="assests/ReadmeImages/loginPage.png" height="400px" width="200px"  alt>  
+    <figcaption>Login Page</figcaption>
+    </figure>
+    <figure>
+    <img src="assests/ReadmeImages/shop_page.png" height="400px" width="200px" alt>
+    <figcaption>Home Page</figcaption>
+    <figure>
+</p>
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app will first ask for login/signup if opened for first time. If the user is already logged in then, the Home Screen(or my shop screen) will be opened.
