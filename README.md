@@ -49,7 +49,7 @@ The orders page has the following components:
 
 ## Products Screen
 <div align="center">
-    <img src="assests/ReadmeImages/ProductsPage.png" height="400px" width="200px">
+    <img src="assests/ReadmeImages/productsPage.png" height="400px" width="200px">
 </div>
 
 The Products Screen has the following components:
