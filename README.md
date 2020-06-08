@@ -2,7 +2,7 @@
 
 This app is a simple shop app where you can order items, purchase items and add items.
 
-## Login Screen
+## Auth Screen
 <div align="center">
     <img src="assests/ReadmeImages/loginPage.png" height="400px" width="200px">  
 </div>
@@ -70,10 +70,21 @@ The edit products page is a form for adding or editiing the product. It has the 
 - The Image Url is the url of the image of the product. A preview of the image is shown in the container on the left.
 - The save button at the app bar adds/edits the product.     
 
+## App Drawer
+<div align="center">
+    <img src="assests/ReadmeImages/AppDrawer.png" height="400px" width="200px">
+</div>
+
+The app drawer is used to navigate to mostly all screens of app:
+- The 'shop' option leads us to My Shop screen.
+- The 'orders' option leads us to Orders screen.
+- The 'manage products' option leads us to products screen.
+- The 'logout' option logs us out and leads us to Auth screen. 
+
 ## Further Improvements
 
 The further improvements are as follows :
-- The app doesnot differentiate between the buyers and sellers. Any one can post a new product and any one can order it.
+- The app doesnot differentiate between the buyers and sellers. Any one can post a new product and any one can order it. Infact there is no special profile for the user.
 - In case of adding more items to the cart, the user need to remove the whole set and again add it.
 - Though the app's data is stored in firebase's realtime database, all the features of firebase are not used. Instead only the API links are used as HTTP requests to the app and everything is handled here in the app.
 - There are many UI components which do to end up to a great UX. 
