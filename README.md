@@ -88,3 +88,6 @@ Further improvements are as follows :
 - In case of adding more items to the cart, the user needs to remove the whole set and again add it.
 - Though the app's data is stored in firebase's realtime database, all the features of firebase are not used. Instead only the API links are used as HTTP requests to the app and everything is handled here in the app.
 - There are many UI components that can be improved. 
+
+## Download
+The apk file can be downloaded from [here](https://drive.google.com/file/d/1BDviE85YSct3jldrrpUcTCGvw_AV-hmO/view?usp=sharing).
